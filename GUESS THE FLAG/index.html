@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Flag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="background">
+      <h1 class="title">GUESS THE COUNTRY</h1>
+      <h2 class=""><em>based on it's flag</em></h2>
+      <div class="container">
+        <button class="btn-generate">Display random flag</button>
+
+        <div class="country hidden">
+          <img
+            class="country-flag"
+            src=""
+            alt="FLAG LOADING... "
+          />
+          <form class="form">
+            <input id="input" type="text" class="input-country" autofocus placeholder="country name" /><em>(country name..?)</em>
+          </input>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
